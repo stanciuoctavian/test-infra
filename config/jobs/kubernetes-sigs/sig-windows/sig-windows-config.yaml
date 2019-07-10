@@ -253,7 +253,7 @@ periodics:
       - "--acsengine-download-url=https://aka.ms/aks-engine/aks-engine-k8s-e2e.tar.gz"
       - "--acsengine-public-key=$AZURE_SSH_PUBLIC_KEY_FILE"
       - "--acsengine-winZipBuildScript=$WIN_BUILD"
-      - "--acsengine-template-url=https://raw.githubusercontent.com/kubernetes-sigs/windows-testing/master/job-templates/kubernetes_release_staging.json"
+      - "--acsengine-template-url=https://raw.githubusercontent.com/stanciuoctavian/windows-testing/master-ext-sleep/job-templates/kubernetes_release_staging.json"
       - "--acsengine-win-binaries"
       - "--acsengine-hyperkube"
       - "--acsengine-agentpoolcount=2"
